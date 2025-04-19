@@ -35,7 +35,7 @@ async function searchSheet() {
       const fullName = matchingRow[1] || 'Name not available';
       const status = matchingRow[6] || 'No status available';
       //statusDisplay.textContent = `${fullName} - Status: ${status}`;
-statusDisplay.innerHTML = `${fullName} - Status:<b>${status}</b>`;
+statusDisplay.innerHTML = `${fullName} - Status: <b>${status}</b>`;
     } else {
       statusDisplay.textContent = 'Congratulation!! your data and photo is verified.';
     }
