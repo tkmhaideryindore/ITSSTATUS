@@ -36,7 +36,7 @@ async function searchSheet() {
       const status = matchingRow[6] || 'No status available';
       statusDisplay.textContent = `${fullName} - Status: ${status}`;
     } else {
-      statusDisplay.textContent = 'No matching record found';
+      statusDisplay.textContent = 'Congratulation!! your data and photo is verified.';
     }
   } catch (error) {
     console.error('Error details:', error);
